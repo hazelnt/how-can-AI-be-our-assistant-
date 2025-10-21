@@ -1,0 +1,155 @@
+header {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 92vm;  
+  font-size: 20px;  
+  color:  #1a9c8f;     
+}
+
+body{
+    background-color: #0D1B2A ;
+}
+main {
+      display: flex;
+      flex-direction: column; /* susun ke bawah */
+      align-items: flex-start; /* biar teks rata kiri */
+      gap: 40px; /* jarak antar bagian */
+      margin-top: 80px;
+}
+
+.judul{
+    color:#8cc1e4;
+}
+
+.isi{
+    color:#9f7de3;
+    width:50%;
+}
+
+.bold, .a2 {
+    color:#5220b8;
+}
+
+
+  .clickable {
+    color:#b7aad0;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .hidden, .hidden2 {
+    display: none;
+  }
+  .inner, .inner2 {
+    background:  #1d3753 ;
+    color:#b2a4cd;
+    margin-top: 8px;
+    padding: 8px 12px;
+    border-radius: 6px;
+  }
+
+  .right-box {
+  position: absolute;  /* atau fixed, tergantung kebutuhanmu */
+  top: 150px;
+  right: 80px;
+  width: 270px;
+  background: white;
+  padding: 15px;
+   background-color: #132639;
+  border: 2px solid #00e6c3;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center; /* biar tombolnya di tengah */
+}
+
+.info-btn {
+  background-color: #4b47ff;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.info-btn:hover {
+  background-color: #322fe0;
+}
+
+.links {
+  position: absolute;  /* atau fixed, tergantung kebutuhanmu */
+  top: 400px;
+  right: 80px;
+  width: 270px;
+   background: white;
+  padding: 15px;
+   background-color: #132639;
+  border: 2px solid #00e6c3;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-size: 17px;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: background 0.3s, color 0.3s;
+}
+.hmzz{
+    color: #acb6c6;
+    text-align: center;
+    font-size: 22px;
+}
+.accordion-btn {
+    background-color: #0f172a;
+    color: #38bdf8;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background 0.3s, color 0.3s;
+}
+.accordion-btn:hover {
+  background-color: #38bdf8;
+  color: #0f172a;
+}
+
+.panel {
+    top: 420px;
+  right: 80px;
+  width: 250px;
+  background-color: #1e293b;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  padding-left: 10px;
+}
+
+.panel ul {
+  list-style: none;
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+a {
+  color: #3effe2; /* warna link biasa */
+  text-decoration: none; /* biar ga ada garis bawah */
+}
+
+a:hover {
+  color: rgb(53, 130, 181); /* warna saat di-hover */
+  text-decoration: underline; /* muncul garis bawah pas diarahin */
+}
+
+a:visited {
+  color: #66636b; /* warna setelah dikunjungi */
+}
+
+a:active {
+  color: #6649a0; /* warna pas diklik */
+}
